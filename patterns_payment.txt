@@ -1,3 +1,0 @@
-paymnt
-paybtc
-payout
