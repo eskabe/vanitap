@@ -45,6 +45,9 @@ You can also run the program directly via Cargo in release mode without manually
 * One pattern per line
 * Empty lines are ignored
 
+**ONLY use bech32:**
+* 023456789acdefghjklmnpqrstuvwxyz
+
 **Note:** `patterns_payment.txt` will not be updated on a hit; all entries are used for every search.  
 -> Keep the file empty to search without payment patterns.
 
