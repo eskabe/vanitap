@@ -82,7 +82,7 @@ fn main() {
 		println!("Pattern from console input.");
 	}
 	else {
-		println!("pattern from file: {}", file);
+		println!("Pattern from file: {}", file);
 	}
 	
 	if let Some(_) = args.patternpay.as_ref() {
