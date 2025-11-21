@@ -64,7 +64,7 @@ You can also run the program directly via Cargo in release mode without manually
 * Public key
 * XOnlyPublicKey
 * ScriptPubKey
-* Performance info in H/s, kH/s, MH/s, etc.
+* Performance info in H/s, kH/s, MH/s, GH/s
 
 **Results file (`results.txt`) format:**
 
