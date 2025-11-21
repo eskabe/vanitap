@@ -108,19 +108,19 @@ Keep the file empty to search without payment pattern.
 **3. Single pattern from CLI**
 
 ```bash
- ./target/release/vanitap -p "123abc"
+ ./target/release/vanitap -p w4ll3t
 ```
 
 **4. Single pattern from CLI with payment pattern from CLI**
 
 ```bash
- ./target/release/vanitap -p "123abc" -y "bc1p456"
+ ./target/release/vanitap -p w4ll3t -y pay
 ```
 
 **5. Using custom patterns file**
 
 ```bash
- ./target/release/vanitap -f my_patterns.txt
+ ./target/release/vanitap -f my_patterns_file.txt
 ```
 
 ---
@@ -129,11 +129,11 @@ Keep the file empty to search without payment pattern.
 
 Command:
 ```bash
- ./target/release/vanitap -p etch -s -y sats
+ ./target/release/vanitap -p w4ll3t -s -y pay
 ```
 Alternative:  
 ```bash
-cargo run --release -- -p etch -s -y sats
+cargo run --release -- -p w4ll3t -s -y pay
 ```
 
 *Output:*
@@ -142,9 +142,9 @@ cargo run --release -- -p etch -s -y sats
 Pattern from console input.
 Pay-pattern from console input.
 Search for suffix(es):
-etch
+w4ll3t
 ...with payment (p2wpkh) suffix(es):
-sats
+pay
 252.29 kH/s
 254.03 kH/s
 253.30 kH/s
