@@ -97,11 +97,11 @@ fn main() {
 		println!("Search for suffix(es):");
 		patterns.iter().for_each(|p| println!("{}", p));
 		if !patternspay.is_empty() {
-			println!("...with payment (p2wpkh) suffixes:");
+			println!("...with payment (p2wpkh) suffix(es):");
 			patternspay.iter().for_each(|pay| println!("{}", pay));	
 		}
 		else {
-			println!("...without any payment (p2wpkh) suffixes.");
+			println!("...without any payment (p2wpkh) suffix(es).");
 		}
 	
 	}
@@ -111,11 +111,11 @@ fn main() {
 		patterns.iter().for_each(|p| println!("{}", p));
 		
 		if !patternspay.is_empty() {
-			println!("...with payment (p2wpkh) prefix:");
+			println!("...with payment (p2wpkh) prefix(es):");
 			patternspay.iter().for_each(|pay| println!("{}", pay));	
 		}
 		else {
-			println!("...without any payment (p2wpkh) prefix.");
+			println!("...without any payment (p2wpkh) prefix(es).");
 		}
 		
 	}

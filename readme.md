@@ -145,4 +145,7 @@ Search for suffix(es):
 etch
 ...with payment (p2wpkh) suffixes:
 sats
+252.29 kH/s
+254.03 kH/s
+253.30 kH/s
 ```
