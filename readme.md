@@ -143,7 +143,7 @@ Pattern from console input.
 Pay-pattern from console input.
 Search for suffix(es):
 etch
-...with payment (p2wpkh) suffixes:
+...with payment (p2wpkh) suffix(es):
 sats
 252.29 kH/s
 254.03 kH/s
