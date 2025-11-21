@@ -3,6 +3,11 @@
 **/*.rs.bk
 Cargo.lock
 
+# Patterns
+patterns.txt
+patterns_payment.txt
+results.txt
+
 # OS files
 .DS_Store
 Thumbs.db
