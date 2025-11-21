@@ -1,0 +1,16 @@
+[package]
+name = "vanitap"
+version = "0.1.8"
+authors = ["eskabe.btc"]
+edition = '2024'
+description = "btc vanity tapoot (p2tr) generator"
+readme = "README.md"
+#repository = "https://github.com/eskabe"
+keywords = ["btc", "vanity", "tapoot"]
+categories = ["btc", "taproot", "command-line-utilities"]
+
+[dependencies]
+rayon = "1.8.0"
+bitcoin = { version = "0.31.1", features = ["rand"] }
+rand = "0.8.0"
+clap = { version = "4.4.18", features = ["derive"] }
